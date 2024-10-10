@@ -6,6 +6,6 @@ images:
   newTag: abcdefg
 resources:
 - ../../base
-patchesStrategicMerge:
-- HAT-backEnd-deployment-patch.yaml
-- hat-spring-backend-service-patch.yaml
+patches:
+- path: HAT-backEnd-deployment-patch.yaml
+- path: hat-spring-backend-service-patch.yaml
