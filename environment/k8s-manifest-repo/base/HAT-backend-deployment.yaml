@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hat-spring-backend
-          image: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server:0.0.2
+          image: $ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/how_about_there/server:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
