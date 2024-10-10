@@ -1,0 +1,27 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hat-spring-backend
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hat-spring-backend
+  template:
+    metadata:
+      labels:
+        app: hat-spring-backend
+    spec:
+      containers:
+        - name: hat-spring-backend
+          image: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server:0.0.2
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          resources:
+            requests:
+              cpu: 250m
+            limits:
+              cpu: 500m
