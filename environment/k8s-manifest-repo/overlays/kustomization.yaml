@@ -9,3 +9,8 @@ resources:
 patches:
 - path: HAT-backEnd-deployment-patch.yaml
 - path: hat-spring-backend-service-patch.yaml
+resources:
+- ../../base
+patchesStrategicMerge:
+- HAT-backEnd-deployment-patch.yaml
+- hat-spring-backend-service-patch.yaml
