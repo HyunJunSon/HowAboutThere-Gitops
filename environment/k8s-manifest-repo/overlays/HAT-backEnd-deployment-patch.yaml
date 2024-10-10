@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hat-spring-backend
+  namespace: default
+  labels:
+    env: dev
+spec:
+  template:
+    metadata:
+      labels:
+        env: dev
