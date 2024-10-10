@@ -5,12 +5,9 @@ images:
   newName: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/how_about_there/server
   newTag: abcdefg
 resources:
-- ../../base
+- ../base
 patches:
-- path: HAT-backEnd-deployment-patch.yaml
+- path: HAT-backend-deployment-patch.yaml
 - path: hat-spring-backend-service-patch.yaml
-resources:
-- ../../base
-patchesStrategicMerge:
-- HAT-backEnd-deployment-patch.yaml
-- hat-spring-backend-service-patch.yaml
+
+
