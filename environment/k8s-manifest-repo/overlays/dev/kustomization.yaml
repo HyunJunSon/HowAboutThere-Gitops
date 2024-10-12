@@ -4,3 +4,5 @@ images:
 - name: .dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
   newName: .dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
 - name: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/
+- name: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
+  newName: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
