@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: hat-spring-backend
   annotations:
-    alb.ingress.kubernetes.io/healthcheck-path: "/"
+    alb.ingress.kubernetes.io/healthcheck-path: "/trip/spot"
   labels:
     env: dev
 spec:
