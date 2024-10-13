@@ -3,7 +3,6 @@ kind: Kustomization
 images:
 - name: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/how_about_there/server
   newTag: fcc48539
-- name: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
 resources:
 - ../../base
 patchesStrategicMerge:
