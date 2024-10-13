@@ -5,7 +5,7 @@ images:
   newTag: fcc48539
 - name: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
   newName: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
-  newTag: cc824cbd
+  newTag: 5d618e1c
 resources:
 - ../../base
 patchesStrategicMerge:
