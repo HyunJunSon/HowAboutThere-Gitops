@@ -4,11 +4,11 @@ kind: Service
 metadata:
   name: hat-spring-backend
   annotations:
-    alb.ingress.kubernetes.io/healthcheck-path: "/contents/aws"
+    alb.ingress.kubernetes.io/healthcheck-path: "/trip/spot"
 spec:
   selector:
     app: hat-spring-backend
-  type: NodePort
+  type: LoadBalancer
   ports:
     - port: 8080 # 서비스가 생성할 포트  
       targetPort: 8080 # 서비스가 접근할 pod의 포트

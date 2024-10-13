@@ -24,4 +24,4 @@ spec:
             requests:
               cpu: 250m
             limits:
-              cpu: 500m
+              cpu: 700m
