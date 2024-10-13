@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hat-spring-backend
-          image: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/how_about_there/server:latest
+          image: ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/how_about_there/server
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
@@ -24,4 +24,4 @@ spec:
             requests:
               cpu: 250m
             limits:
-              cpu: 500m
+              cpu: 700m
