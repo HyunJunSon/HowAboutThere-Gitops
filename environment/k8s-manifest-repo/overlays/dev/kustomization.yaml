@@ -4,7 +4,7 @@ namePrefix: dev-
 images:
 - name: ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/how_about_there/server
   newName: 590184073129.dkr.ecr.ap-northeast-2.amazonaws.com/how_about_there/server
-  newTag: 8b5bdebd
+  newTag: f3bd9b63
 resources:
 - ../../base
 patchesStrategicMerge:
